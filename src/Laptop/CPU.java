@@ -28,4 +28,14 @@ public class CPU {
     public int getNumberOfCores() {
         return NumberOfCores;
     }
+
+    @Override
+    public String toString() {
+        return "CPU{" +
+                "brand='" + brand + '\'' +
+                ", name='" + name + '\'' +
+                ", CPUFrequency=" + CPUFrequency +
+                ", NumberOfCores=" + NumberOfCores +
+                '}';
+    }
 }

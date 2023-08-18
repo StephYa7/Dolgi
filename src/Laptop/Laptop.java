@@ -64,4 +64,16 @@ public class Laptop {
     public void setRam(RAM ram) {
         this.ram = ram;
     }
+
+    @Override
+    public String toString() {
+        return
+                "brand='" + brand + '\'' +
+                ", name='" + name + '\'' +
+                ", cpu=" + cpu +
+                ", gpu=" + gpu +
+                ", hhd=" + hhd +
+                ", ram=" + ram +
+                '}';
+    }
 }

@@ -22,4 +22,13 @@ public class HDD {
     public int getCapacity() {
         return capacity;
     }
+
+    @Override
+    public String toString() {
+        return "HDD{" +
+                "brand='" + brand + '\'' +
+                ", name='" + name + '\'' +
+                ", capacity=" + capacity +
+                '}';
+    }
 }

@@ -28,4 +28,14 @@ public class GPU {
     public int getMemorySize() {
         return memorySize;
     }
+
+    @Override
+    public String toString() {
+        return "GPU{" +
+                "brand='" + brand + '\'' +
+                ", name='" + name + '\'' +
+                ", memoryFrequency=" + memoryFrequency +
+                ", memorySize=" + memorySize +
+                '}';
+    }
 }

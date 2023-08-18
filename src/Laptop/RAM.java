@@ -28,4 +28,14 @@ public class RAM {
     public int getMemorySize() {
         return memorySize;
     }
+
+    @Override
+    public String toString() {
+        return "RAM{" +
+                "brand='" + brand + '\'' +
+                ", name='" + name + '\'' +
+                ", memoryFrequency=" + memoryFrequency +
+                ", memorySize=" + memorySize +
+                '}';
+    }
 }
